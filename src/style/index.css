@@ -3,7 +3,7 @@
 
 body  {
     background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
-  background-size:cover;
+        background-size:cover;
         -webkit-animation: slidein 100s;
         animation: slidein 100s;
 
@@ -20,6 +20,9 @@ body  {
         width: 640px;
         
 }
+       
+      
+        
 
 @-webkit-keyframes slidein {
 from {background-position: top; background-size:3000px; }
@@ -88,6 +91,7 @@ h1 {
 }
 
 h2 {
+  
   color: rgba(0, 0, 0, 0.62);
 }
 
@@ -189,6 +193,7 @@ img {
   max-width: 50%;
   max-height: 50%;
   
+  
  }
  .Us {
   height: 10px;
@@ -214,14 +219,14 @@ div:after {
 
 
 .container  {
-  max-width: 1029px;
+  max-width: 80% !important;
   margin: 0 auto;
-  margin-top: 10px;
+  
   padding: 10px;
   border-radius: 10px;
   padding: 0 15px;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size:contain;
   background-position: 0px -70;
   width: 100%;
   text-align: center;
@@ -241,9 +246,24 @@ footer  {
   background-color: rgba(242, 236, 236, 0.298);
 
 }
+body {
+  margin-top: 220px;
+}
 
+/* Sm */
+@media (min-width: 576px) {
+  body { margin-top: 120px; }
+ }
 
+/* Med */
+@media (min-width: 768px) { 
+  body { margin-top: 100px; }
+ }
 
+/* Lg */
+@media (min-width: 992px) {
+
+ }
   
 
  
